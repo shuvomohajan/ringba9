@@ -1,0 +1,212 @@
+[
+  {
+    "name": "dtStamp",
+    "original": "2021-08-23T02:23:32.0200942Z",
+    "formattedValue": 1629685412020,
+    "type": "date",
+    "sum": false
+  },
+  {
+    "name": "accountId",
+    "original": "RA30665ea879dd4e9587342088ee1f39a8",
+    "formattedValue": "RA30665ea879dd4e9587342088ee1f39a8",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "campaignId",
+    "original": "CA24a3d56ff56c49f29f5dbfa4ec80df93",
+    "formattedValue": "CA24a3d56ff56c49f29f5dbfa4ec80df93",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "campaignName",
+    "original": "Verify Benefits",
+    "formattedValue": "Verify Benefits",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "affiliateId",
+    "original": "AFf10ea449d2944a44ae12586e800a5dc5",
+    "formattedValue": "AFf10ea449d2944a44ae12586e800a5dc5",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "affiliateName",
+    "original": "WE Network",
+    "formattedValue": "WE Network",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "number",
+    "original": "+18002553196",
+    "formattedValue": "+18002553196",
+    "type": "phone",
+    "sum": false
+  },
+  {
+    "name": "numberPoolId",
+    "original": "",
+    "formattedValue": "",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "numberPoolName",
+    "original": "",
+    "formattedValue": "",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "inboundCallId",
+    "original": "v2AGrEE4z6_hEeYgmQ5btuYSKmBw4QD_gqGfFPyE9bU8UUN6ZLawfoxw",
+    "formattedValue": "v2AGrEE4z6_hEeYgmQ5btuYSKmBw4QD_gqGfFPyE9bU8UUN6ZLawfoxw",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "inboundPhoneNumber",
+    "original": "+17325108824",
+    "formattedValue": "+17325108824",
+    "type": "phone",
+    "sum": false
+  },
+  {
+    "name": "previouseCallTargetName",
+    "original": "",
+    "formattedValue": "",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "previouseCallCallId",
+    "original": "",
+    "formattedValue": 0,
+    "type": "bool",
+    "sum": false
+  },
+  {
+    "name": "previouseCallDateTime",
+    "original": 1629685412020,
+    "formattedValue": 1629685412020,
+    "type": "date",
+    "sum": false
+  },
+  {
+    "name": "totalAmount",
+    "original": 0.23,
+    "formattedValue": 0.23,
+    "type": "currency",
+    "sum": false
+  },
+  {
+    "name": "targetName",
+    "original": "Legacy Health-AMC",
+    "formattedValue": "Legacy Health-AMC",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "targetId",
+    "original": "TA61d7589312894c629af08171751feace",
+    "formattedValue": "TA61d7589312894c629af08171751feace",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "targetNumber",
+    "original": "+13213412056",
+    "formattedValue": "+13213412056",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "targetBuyerId",
+    "original": "BUcdbadab123474146bd0208686961cf1a",
+    "formattedValue": "BUcdbadab123474146bd0208686961cf1a",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "targetBuyer",
+    "original": "Legacy Healing Centers",
+    "formattedValue": "Legacy Healing Centers",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "timeToConnect",
+    "original": 3,
+    "formattedValue": 3,
+    "type": "seconds",
+    "sum": false
+  },
+  {
+    "name": "callConnectionDt",
+    "original": 1629685415124,
+    "formattedValue": 1629685415124,
+    "type": "date",
+    "sum": false
+  },
+  {
+    "name": "conversionAmount",
+    "original": 61,
+    "formattedValue": 61,
+    "type": "currency",
+    "sum": false
+  },
+  {
+    "name": "callLengthInSeconds",
+    "original": 102,
+    "formattedValue": 102,
+    "type": "seconds",
+    "sum": false
+  },
+  {
+    "name": "callCompletedDt",
+    "original": 1629685514083,
+    "formattedValue": 1629685514083,
+    "type": "date",
+    "sum": false
+  },
+  {
+    "name": "payoutAmount",
+    "original": 57,
+    "formattedValue": 57,
+    "type": "currency",
+    "sum": false
+  },
+  {
+    "name": "source",
+    "original": "Caller",
+    "formattedValue": "Caller",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "recordingUrl",
+    "original": "https://media.ringba.com/recording-public?v=v1&k=ZOeHn9yPLxLg%2buaLcQ8uFm7DqPR%2boWxxbIIrl%2b%2b009Srd%2bh2Ywi76lcr0%2f%2f7%2fMfriEqXGlNHqhKmg3ydqISKXs%2bQt7H%2feTxMCHJ0IkNp5%2fqly9wfpkCe9KA7Mpf2Abl1NffQuoXPpt7zyCVkXSlNGSXzH1k22fYpiuqZXFddysmeWJBCuiC3TyVKFfqyeKy8PzWQRjN4pXe7UHP9rYlDoU0iqpv9XBitGLLmv9T8ZP53bt5xyugEjk3v88hICCR%2b9GTN4LdyQ9xjB6BNPGfz9dA%2fJT0%3d",
+    "formattedValue": "https://media.ringba.com/recording-public?v=v1&k=ZOeHn9yPLxLg%2buaLcQ8uFm7DqPR%2boWxxbIIrl%2b%2b009Srd%2bh2Ywi76lcr0%2f%2f7%2fMfriEqXGlNHqhKmg3ydqISKXs%2bQt7H%2feTxMCHJ0IkNp5%2fqly9wfpkCe9KA7Mpf2Abl1NffQuoXPpt7zyCVkXSlNGSXzH1k22fYpiuqZXFddysmeWJBCuiC3TyVKFfqyeKy8PzWQRjN4pXe7UHP9rYlDoU0iqpv9XBitGLLmv9T8ZP53bt5xyugEjk3v88hICCR%2b9GTN4LdyQ9xjB6BNPGfz9dA%2fJT0%3d",
+    "type": "text",
+    "sum": false
+  },
+  {
+    "name": "callConnectionLength",
+    "original": 99,
+    "formattedValue": 99,
+    "type": "seconds",
+    "sum": false
+  },
+  {
+    "name": "profit",
+    "original": 4,
+    "formattedValue": 4,
+    "type": "currency",
+    "sum": false
+  }
+]
