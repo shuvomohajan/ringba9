@@ -24,9 +24,9 @@ import NormalModal from "../../Shared/NormalModal";
 import {
   BarChart as BarChartIcon,
   Settings as SettingsIcon,
-  ShoppingBag as ShoppingBagIcon,
   User as UserIcon,
   Users as UsersIcon,
+  Minus as MinusIcon
 } from "react-feather";
 import { ExpandLess, ExpandMore } from "@material-ui/icons";
 import { InertiaLink } from "@inertiajs/inertia-react";
@@ -91,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     width: drawerWidth,
-    overflow: "hidden",
+    overflow: "auto",
   },
   drawerHeader: {
     display: "flex",
@@ -132,6 +132,7 @@ const useStyles = makeStyles((theme) => ({
   },
   nested: {
     paddingLeft: "25px",
+    backgroundColor: "#f9f9f9",
   },
   item: {
     color: "rgb(107, 119, 140)",
@@ -685,7 +686,7 @@ export default function PersistentDrawerLeft(props) {
                           key={submenu.id}
                         >
                           <ListItemIcon className={classes.menuIcon}>
-                            <ShoppingBagIcon size="15" />
+                            <MinusIcon size="15" />
                           </ListItemIcon>
                           <ListItemText
                             primary={submenu.title}
