@@ -26,7 +26,7 @@ import {
   Settings as SettingsIcon,
   User as UserIcon,
   Users as UsersIcon,
-  Minus as MinusIcon
+  Minus as MinusIcon,
 } from "react-feather";
 import { ExpandLess, ExpandMore } from "@material-ui/icons";
 import { InertiaLink } from "@inertiajs/inertia-react";
@@ -461,7 +461,8 @@ export default function PersistentDrawerLeft(props) {
           title: "Targets",
           href: "target.report",
           Icon: <UserIcon />,
-        }, {
+        },
+        {
           title: "Target Names",
           href: "target_names.report",
           Icon: <UserIcon />,
@@ -567,7 +568,7 @@ export default function PersistentDrawerLeft(props) {
             type="submit"
             color="primary"
             onClick={() => handleOpenModal(setShowlStaorageModal)}
-          // className={classes.button}
+            // className={classes.button}
           >
             Clear LocalStorage
           </Button>
@@ -626,27 +627,24 @@ export default function PersistentDrawerLeft(props) {
           {items.map((menu) => (
             <div key={menu.id}>
               {menu.collapse ? (
-                <InertiaLink
-                  href={menu.href ? route(menu.href) : "#"}
+                <ListItem
+                  button
                   onClick={() => handleClick(menu.id)}
-                  style={{ textDecoration: "none" }}
                   key={menu.id}
                 >
-                  <ListItem button key={menu.id}>
-                    <ListItemIcon className={classes.menuIcon}>
-                      {menu.Icon}
-                    </ListItemIcon>
-                    <ListItemText
-                      primary={menu.title}
-                      className={classes.menuText}
-                    />
-                    {active.id === menu.id && active.active ? (
-                      <ExpandLess />
-                    ) : (
-                      <ExpandMore />
-                    )}
-                  </ListItem>
-                </InertiaLink>
+                  <ListItemIcon className={classes.menuIcon}>
+                    {menu.Icon}
+                  </ListItemIcon>
+                  <ListItemText
+                    primary={menu.title}
+                    className={classes.menuText}
+                  />
+                  {active.id === menu.id && active.active ? (
+                    <ExpandLess />
+                  ) : (
+                    <ExpandMore />
+                  )}
+                </ListItem>
               ) : (
                 <InertiaLink
                   href={route(menu.href)}
@@ -663,15 +661,13 @@ export default function PersistentDrawerLeft(props) {
                   </ListItem>
                 </InertiaLink>
               )}
+
               {menu.collapse ? (
                 <Collapse
                   in={active.id === menu.id && active.active}
                   timeout="auto"
                   unmountOnExit
-                  className={`${menu.active
-                      ? "sidebar-menu-active"
-                      : "sidebar-menu-inactive"
-                    }`}
+                  style={{ overflow: "hidden" }}
                 >
                   <List component="div" disablePadding>
                     {menu.submenu.map((submenu) => (

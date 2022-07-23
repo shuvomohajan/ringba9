@@ -69,10 +69,6 @@ div::-webkit-scrollbar-thumb {
     overflow-x: hidden !important;
 }
 
-.MuiCollapse-root {
-    transition: none !important;
-}
-
 .generate-report .MuiFormGroup-root {
     flex-direction: row;
 }
