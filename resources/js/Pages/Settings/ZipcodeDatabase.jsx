@@ -1915,12 +1915,13 @@ console.log(tableProps)
           <select
             name="item-per-page"
             id="item-per-page"
+            value={itemPerPage}
             onChange={(e) => itemPerPageHandleChange(e)}
           >
-            <option value="10" selected="">10</option>
-            <option value="20" selected="">20</option>
-            <option value="50" selected="">50</option>
-            <option value="100" selected="">100</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
           </select>
           <Pagination changePage={getSearchingData} data={zipCodeData} />
         </div>
